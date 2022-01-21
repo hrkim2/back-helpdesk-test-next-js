@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qnas",
+  "info": {
+    "singularName": "qna",
+    "pluralName": "qnas",
+    "displayName": "Qna",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "boardCd": {
+      "type": "string"
+    },
+    "qId": {
+      "type": "integer"
+    },
+    "qTitle": {
+      "type": "string"
+    },
+    "qStatusCd": {
+      "type": "integer"
+    },
+    "qUser": {
+      "type": "string"
+    },
+    "registDate": {
+      "type": "datetime"
+    },
+    "readCount": {
+      "type": "integer"
+    },
+    "qDetail": {
+      "type": "richtext"
+    },
+    "common_code": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::common-code.common-code"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "common_codes",
+  "info": {
+    "singularName": "common-code",
+    "pluralName": "common-codes",
+    "displayName": "CommonCode"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "codeType": {
+      "type": "string"
+    },
+    "code": {
+      "type": "integer"
+    },
+    "codeName": {
+      "type": "string"
+    },
+    "registUser": {
+      "type": "string"
+    }
+  }
+}
